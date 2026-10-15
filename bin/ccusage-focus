@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Run from anywhere: resolves the converter's own directory for bb's classpath.
+root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+exec bb --config "$root/bb.edn" -m ccusage-focus.main "$@"

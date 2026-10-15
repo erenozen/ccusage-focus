@@ -1,0 +1,81 @@
+{
+  "projects": {
+    "beta-api": [
+      {
+        "cacheCreationTokens": 0,
+        "cacheReadTokens": 0,
+        "date": "2026-01-30",
+        "inputTokens": 0,
+        "modelBreakdowns": [
+          {
+            "cacheCreationTokens": 0,
+            "cacheReadTokens": 0,
+            "cost": 0.0015,
+            "inputTokens": 0,
+            "modelName": "claude-opus-4-1-20250805",
+            "outputTokens": 20
+          }
+        ],
+        "modelsUsed": ["claude-opus-4-1-20250805"],
+        "outputTokens": 20,
+        "project": "beta-api",
+        "totalCost": 0.0015,
+        "totalTokens": 20
+      }
+    ],
+    "alpha-web": [
+      {
+        "cacheCreationTokens": 0,
+        "cacheReadTokens": 0,
+        "date": "2026-01-31",
+        "inputTokens": 500,
+        "modelBreakdowns": [
+          {
+            "cacheCreationTokens": 0,
+            "cacheReadTokens": 0,
+            "cost": 0.003,
+            "inputTokens": 500,
+            "modelName": "claude-sonnet-4-20250514",
+            "outputTokens": 100
+          }
+        ],
+        "modelsUsed": ["claude-sonnet-4-20250514"],
+        "outputTokens": 100,
+        "project": "alpha-web",
+        "totalCost": 0.003,
+        "totalTokens": 600
+      }
+    ],
+    "gamma,svc": [
+      {
+        "cacheCreationTokens": 0,
+        "cacheReadTokens": 0,
+        "date": "2026-01-31",
+        "inputTokens": 0,
+        "modelBreakdowns": [
+          {
+            "cacheCreationTokens": 0,
+            "cacheReadTokens": 0,
+            "cost": 7.5e-05,
+            "inputTokens": 0,
+            "modelName": "claude-opus-4-1-20250805",
+            "outputTokens": 1
+          }
+        ],
+        "modelsUsed": ["claude-opus-4-1-20250805"],
+        "outputTokens": 1,
+        "project": "gamma,svc",
+        "totalCost": 7.5e-05,
+        "totalTokens": 1
+      }
+    ]
+  },
+  "totals": {
+    "cacheCreationTokens": 0,
+    "cacheReadTokens": 0,
+    "inputTokens": 500,
+    "outputTokens": 121,
+    "totalCost": 0.004575,
+    "totalTokens": 621
+  }
+}

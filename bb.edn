@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :tasks {test {:doc "Run the converter tests"
+               :extra-paths ["test"]
+               :requires ([clojure.test :as t] [ccusage-focus.core-test])
+               :task (let [{:keys [fail error]} (t/run-tests 'ccusage-focus.core-test)]
+                       (System/exit (if (zero? (+ fail error)) 0 1)))}}}
