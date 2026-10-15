@@ -1,0 +1,10 @@
+# Nix
+result
+result-*
+.direnv/
+
+# Babashka / Clojure tooling
+.cpcache/
+.nrepl-port
+.clj-kondo/.cache/
+.lsp/.cache/
