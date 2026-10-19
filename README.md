@@ -7,6 +7,13 @@ per agent, per model, carrying ccusage's cost for that model-day unchanged. A pe
 It reads ccusage's public `--json` output and nothing else. It does not patch, wrap, or link
 ccusage.
 
+## What the cost columns mean
+
+ccusage computes cost from a public price table; it does not read an invoice. For API usage that is
+close to what you were billed. For a Claude Pro or Max subscription it is not: those tokens were
+covered by the flat fee, and the cost columns state what they _would_ have cost at API prices, not a
+bill.
+
 ## Run it
 
 ```sh
